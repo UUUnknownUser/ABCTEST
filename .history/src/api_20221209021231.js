@@ -4,7 +4,7 @@ const serverless=require('serverless-http');
 const app=express();
 
 const router=express.Router();
-const surveyList=require('../db/models/surveyList.server.model');
+const [surveyList}=require('../db/models/surveyList.server.model');
 
 
 router.get('/json',(req,res)=>{
@@ -15,7 +15,7 @@ router.get('/json',(req,res)=>{
 
     // });
    
-        // return an array of the survey
+        return an array of the survey
         surveyList.find({}).then((surveyList)=>{
             res.send(surveyList);
         });

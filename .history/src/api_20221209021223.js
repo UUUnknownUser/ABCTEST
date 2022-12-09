@@ -15,7 +15,7 @@ router.get('/json',(req,res)=>{
 
     // });
    
-        // return an array of the survey
+        return an array of the survey
         surveyList.find({}).then((surveyList)=>{
             res.send(surveyList);
         });
