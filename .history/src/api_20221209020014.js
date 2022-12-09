@@ -11,7 +11,7 @@ router.get('/json',(req,res)=>{
 
     res.json({
 
-        'hello':'hi!'
+        'hello':'hi!
 
     });
 

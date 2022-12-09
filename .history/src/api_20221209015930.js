@@ -4,6 +4,14 @@ const serverless=require('serverless-http');
 const app=express();
 
 const router=express.Router();
+
+
+
+// const {surveyResponse}=require('../db/models/surveyResponse.server.model');
+// const {signUp}=require('../db/models/signUp.server.model');
+
+
+
  
 
 
@@ -13,7 +21,12 @@ router.get('/json',(req,res)=>{
 
         'hello':'hi!'
 
+
+
     });
+
+
+
 
 });
 
