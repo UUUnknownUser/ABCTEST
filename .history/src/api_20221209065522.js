@@ -7,7 +7,7 @@ const router=express.Router();
 const {surveyList}=require('../db/models/surveyList.server.model');
 app.use(bodyParser.json());
 
-app.get('/json',(req,res)=>{
+router.get('/json',(req,res)=>{
 
     res.json({
 
@@ -24,7 +24,7 @@ app.get('/json',(req,res)=>{
     
 });
 
-// app.use('/.netlify/functions/api',router);
+app.use('/.netlify/functions/api',router);
 
-// module.exports.handler=serverless(app);
+module.exports.handler=serverless(app);
 
