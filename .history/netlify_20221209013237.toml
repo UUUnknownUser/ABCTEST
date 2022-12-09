@@ -3,4 +3,4 @@ functions="functions"
 
 [[redirects]]
 to="/.netlify/functions/api:splat"
-from"/*"
+from
