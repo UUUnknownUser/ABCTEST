@@ -15,7 +15,7 @@ const {signUp}=require('../db/models/signUp.server.model');
 
 
 
- 
+  app.use(cors({ origin: '*'})) 
 
   router.get('/survey',(req,res)=>{
     //return an array of the survey
