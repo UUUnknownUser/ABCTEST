@@ -17,6 +17,14 @@ const {surveyList}=require('../db/models/surveyList.server.model');
 
  
 
+  router.get('/survey',(req,res)=>{
+    //return an array of the survey
+    surveyList.find({}).then((surveyList)=>{
+        res.send(surveyList);
+    });
+    
+
+})
 
 router.get('/json',(req,res)=>{
 
