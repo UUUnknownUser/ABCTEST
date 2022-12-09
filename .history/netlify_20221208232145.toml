@@ -3,7 +3,7 @@
 # example netlify.toml
 [build]
   command = "npm run start"
-  functions = "server.js"
+  functions = "ser"
   publish = "."
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
