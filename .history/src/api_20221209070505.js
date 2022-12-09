@@ -7,7 +7,7 @@ const router=express.Router();
 const {surveyList}=require('../db/models/surveyList.server.model');
 app.use(bodyParser.json());
 
-router.get('/json',(req,res)=>{
+app.get('/json',(req,res)=>{
 
     res.json({
 
