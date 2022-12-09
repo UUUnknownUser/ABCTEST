@@ -9,11 +9,11 @@ const {surveyList}=require('../db/models/surveyList.server.model');
 
 router.get('/json',(req,res)=>{
 
-    res.json({
+    // res.json({
 
-        'hello':'hi!'
+    //     'hello':'hi!'
 
-    });
+    // });
    
         //return an array of the survey
         // surveyList.find({}).then((surveyList)=>{
