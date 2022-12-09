@@ -21,7 +21,7 @@ router.get('/json',(req,res)=>{
         });
         
     
-    
+    })
 });
 
 app.use('/',router);

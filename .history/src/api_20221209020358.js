@@ -14,14 +14,14 @@ router.get('/json',(req,res)=>{
     //     'hello':'hi!'
 
     // });
-   
+    app.get('/survey',(req,res)=>{
         //return an array of the survey
         surveyList.find({}).then((surveyList)=>{
             res.send(surveyList);
         });
         
     
-    
+    })
 });
 
 app.use('/',router);

@@ -14,14 +14,7 @@ router.get('/json',(req,res)=>{
     //     'hello':'hi!'
 
     // });
-   
-        //return an array of the survey
-        surveyList.find({}).then((surveyList)=>{
-            res.send(surveyList);
-        });
-        
-    
-    
+
 });
 
 app.use('/',router);
