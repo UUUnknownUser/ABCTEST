@@ -24,7 +24,7 @@ app.use(function(req, res, next) {
 
   app.use(cors({ origin: '*'})) 
 
-  router.get('/survey',(req,res)=>{
+  app.get('/survey',(req,res)=>{
     //return an array of the survey
     surveyList.find({}).then((surveyList)=>{
         res.send(surveyList);
