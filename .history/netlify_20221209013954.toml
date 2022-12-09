@@ -2,6 +2,6 @@
 functions="functions"
 
 [[redirects]]
-to="/.netlify/functions/apis/:plat"
+to="/.netlify/functions/apis:plat"
 from="/*"
 status=200
